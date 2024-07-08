@@ -79,7 +79,7 @@ public class SongH2Service implements SongRepository {
 
     @Override
     public void deleteSong(int songId) {
-        db.update("Delete from playlist where songId = ? ", songId);
+        db.update("Delete playlist where songId = ? ", songId);
     }
 
     
