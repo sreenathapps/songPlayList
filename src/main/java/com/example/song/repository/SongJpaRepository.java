@@ -7,3 +7,11 @@
  */
 
 // Write your code here
+package com.example.song.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.song.model.Song;
+/**
+ * SongJpaRepository
+ */
+public interface SongJpaRepository extends JpaRepository<Song, Integer> {}
