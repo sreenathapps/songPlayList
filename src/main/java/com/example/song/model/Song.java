@@ -7,7 +7,7 @@
  */
 
 // Write your code here
-
+package com.example.song.model;
 import javax.persistence.*;
 
 @Entity
